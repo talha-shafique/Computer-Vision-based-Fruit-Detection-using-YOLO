@@ -128,7 +128,7 @@ This project successfully delivers a robust and functional AI solution:
 ### **Installation**
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/talha-shafique/Computer-Vision-based-Fruit-Detection-using-YOLO.git
     cd your-repo-name
     ```
     *(Replace `your-username` and `your-repo-name` with your actual GitHub details)*
