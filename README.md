@@ -86,11 +86,11 @@ The custom-trained YOLOv8 model's performance was rigorously evaluated during it
 <div align="center">
     <table>
         <tr>
-            <td><img src="assets/results.png" alt="YOLO Training Results" width="400"></td>
+            <td><img src="assets/BoxPR_curve.png" alt="YOLO Precision-Recall Curve" width="400"></td>
             <td><img src="assets/confusion_matrix.png" alt="YOLO Confusion Matrix" width="400"></td>
         </tr>
         <tr>
-            <td colspan="2" align="center"><img src="assets/BoxPR_curve.png" alt="YOLO Precision-Recall Curve" width="400"></td>
+            <td colspan="2" align="center"><img src="assets/results.png" alt="YOLO Training Results" width="400"></td>
         </tr>
     </table>
 </div>
@@ -211,18 +211,14 @@ This section guides you through running each step of the project's pipeline. Ens
 ├── runs/                       # YOLO training/prediction outputs
 ├── venv/                       # Python virtual environment
 ├── yolov8n.pt                  # Pre-trained YOLOv8 weights
-├── job.jpg                     # Example image
-├── __pycache__/                # Python compiled bytecode
-├── *.pyc                       # Python compiled bytecode files
-├── Shoplifting Detection/      # Separate Git repository/project
+
 ```
 
 ## **Contributing**
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
 ## **Contact**
-[Your Name]
-*   GitHub: [Your GitHub Profile Link]
-*   Email: [Your Email Address]
+*   GitHub: https://github.com/talha-shafique
+*   Email: talha.shafique126@gmail.com
 
 ---
