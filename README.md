@@ -80,31 +80,6 @@ This project outlines a comprehensive pipeline for developing an object detectio
 ## **Model Performance Metrics**
 Performance metrics for the YOLO model (e.g., mAP, Precision, Recall, F1-score) are generated during the training and evaluation phases and typically stored in the `runs/` directory. These include plots like `results.png`, `confusion_matrix.png`, and various PR curves.
 
-### **Random Forest Classifier Performance**
-*(Note: This project focuses on YOLO for fruit detection, so Random Forest metrics are not directly applicable here. This section is included for consistency with the previous project's README structure.)*
-
-**Overall Accuracy:** 0.9730
-
-**Confusion Matrix:**
-| Actual/Predicted | Predicted Normal | Predicted Shoplifting |
-| :--------------- | :--------------- | :-------------------- |
-| **Actual Normal**    | 51               | 2                     |
-| **Actual Shoplifting** | 0                | 21                    |
-
-**Classification Report:**
-| Class       | Precision | Recall | F1-Score | Support |
-| :---------- | :-------- | :----- | :------- | :------ |
-| **Normal**      | 1.00      | 0.96   | 0.98     | 53      |
-| **Shoplifting** | 0.91      | 1.00   | 0.95     | 21      |
-| **Accuracy**    |           |        | 0.97     | 74      |
-| **Macro Avg**   | 0.96      | 0.98   | 0.97     | 74      |
-| **Weighted Avg**| 0.98      | 0.97   | 0.97     | 74      |
-
-*   **Visual Representation:**
-    <div align="center">
-    <img src="assets/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix" width="400">
-    </div>
-
 ### **YOLOv8 Object Detection Model Performance**
 The custom-trained YOLOv8 model's performance was rigorously evaluated during its fine-tuning process, demonstrating strong object detection capabilities for the defined classes.
 
@@ -117,6 +92,22 @@ The custom-trained YOLOv8 model's performance was rigorously evaluated during it
         <tr>
             <td><img src="assets/BoxPR_curve.png" alt="YOLO Precision-Recall Curve" width="400"></td>
             <td><!-- Placeholder for a fourth image if needed --></td>
+        </tr>
+    </table>
+</div>
+
+### **YOLO Prediction Examples**
+Here are some examples of the YOLO model's detection capabilities on fruit images.
+
+<div align="center">
+    <table>
+        <tr>
+            <td><img src="assets/1.jpg" alt="Prediction Example 1" width="400"></td>
+            <td><img src="assets/2.jpg" alt="Prediction Example 2" width="400"></td>
+        </tr>
+        <tr>
+            <td><img src="assets/3.jpg" alt="Prediction Example 3" width="400"></td>
+            <td><img src="assets/4.jpg" alt="Prediction Example 4" width="400"></td>
         </tr>
     </table>
 </div>
