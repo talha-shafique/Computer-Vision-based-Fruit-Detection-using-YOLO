@@ -1,0 +1,13 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+venv/
+.ipynb_checkpoints/ # Ignore Jupyter Notebook checkpoints if you use them
+
+# Generated files and folders
+runs/                   # Training logs, weights, prediction outputs
+yolov8n.pt              # Pre-trained model weights (can be downloaded)
+job.jpg                 # Appears to be a test image/output
+
+# Other projects (separate Git repositories)
+Shoplifting Detection/
